@@ -153,7 +153,7 @@ function doDamage(socket, id, damage) {
 	}
 }
 
-app.use(express.static('/public/'))
+app.use(express.static('public/'))
 
 server.listen(port, () => {
 	logMessage("Server running on port: "+port, colorBlue)
